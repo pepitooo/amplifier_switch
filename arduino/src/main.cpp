@@ -25,7 +25,7 @@ At startup the hifispeaker should be activated
 
 unsigned long previousMillis = 0;
 const long interval = .5 * 1000;
-int relay_activation_duration = 10;
+int relay_activation_duration = 100;
 
 unsigned long last_debonce_time_pusher = 0;  // the last time the output pin was toggled
 unsigned long last_debonce_time_amplifier_trigger = 0;  // the last time the output pin was toggled
